@@ -1,0 +1,48 @@
+body {
+    background: #020617;
+    color: #00ffcc;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    padding:10px;
+}
+
+.cards {
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.cards div {
+    background:#0f172a;
+    padding:10px;
+}
+
+table {
+    width:90%;
+    margin:auto;
+    background:#0f172a;
+}
+
+th, td {
+    padding:10px;
+    border:1px solid #1e293b;
+}
+
+.alert {
+    background:red;
+}
+
+.chart-container {
+    width:500px;
+    margin:auto;
+}
+
+#map {
+    height:400px;
+    width:80%;
+    margin:auto;
+}
